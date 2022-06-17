@@ -1,0 +1,66 @@
+### Go template
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Tests stuff
+*.test
+coverage.html
+c.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Binary
+bin/*
+
+# Makefiles
+linter.mk
+tests.mk
+
+# Configuration
+configuration/*
+!configuration/defaults
+!configuration/test
+!configuration/*.go
+
+# Dependency directories (remove the comment below to include it)
+vendor
+
+# Idea
+.idea
+
+# Linter
+.golangci.yml
+
+# MacOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.golangci*.yml
